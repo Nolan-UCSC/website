@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(thistle, indianred, thistle);
+    background-repeat: repeat;
+    height: fit-content;
+}
+a img{
+    width: 60px; 
+    height: 60px;
+}
+a :link{
+    color:midnightblue;
+}
+a :hover{
+    color:darkslateblue;
+}
+#welcome{
+    text-align: center;
+}
