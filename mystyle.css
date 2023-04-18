@@ -23,4 +23,18 @@ a :hover{
 #welcome{
     text-align: center;
 }
-
+.projects{
+    font-size: 23px;
+    text-align: center;
+}
+.gethub{
+    background-color: none;
+    color: none;
+}
+.gethub:hover{
+    color: green;
+    background-color: lightgreen;
+}
+.aboutMe p{
+    text-align: right;
+}
