@@ -1,5 +1,6 @@
 body{
-    background-image: linear-gradient(thistle, indianred, thistle);
+    background-image: linear-gradient(rgba(156, 195, 231, 0.735), rgba(234, 136, 136, 0.491));
+    height: 100%;
     background-repeat: repeat;
     height: fit-content;
     font-family: cursive;
@@ -9,10 +10,23 @@ body{
     border-width: 20px;
     border-radius: 15px;
 }
-a img{
+html{
+    background-image: linear-gradient(thistle, indianred, thistle);
+    height: 100%;
+}
+img{
     width: 60px; 
     height: 60px;
     margin: 100px;
+    max-width:100%;
+    height:auto;
+}
+@media screen and (max-width: 800px){
+    .img{
+        width: 400px;
+        height: 4s00px;
+    }
+    
 }
 a :link{
     color:midnightblue;
@@ -22,20 +36,21 @@ a :hover{
 }
 #welcome{
     text-align: center;
+    color: #333;
 }
 .projects{
     font-size: 23px;
-    text-align: center;
+    text-align: right;
 }
-.gethub{
+.img{
     color: none;
     background-color: none;
 }
-.gethub:hover{
-    
-    color: green;
-    background-color: green;
+.img img :hover{  
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+    border: 5px solid #555;
 }
-.aboutMe p{
+.aboutMe{
     text-align: right;
 }
