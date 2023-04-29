@@ -1,4 +1,7 @@
-const customName = document.getElementById('customname');
+document.querySelector("html").style.backgroundColor = "red";
+
+
+/*const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
@@ -40,3 +43,4 @@ function result() {
   story.textContent = newStory;
   story.style.visibility = 'visible';
 }
+*/
