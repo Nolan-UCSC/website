@@ -38,5 +38,5 @@ function result() {
   }
 
   story.textContent = newStory;
-  //story.style.visibility = 'visible';
+  story.style.visibility = 'visible';
 }
