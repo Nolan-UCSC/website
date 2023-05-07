@@ -30,6 +30,7 @@ const data = {
   
   console.log(data)
   console.log('Name:', data.name);
+  console.log(data.name)
   console.log('Age:', data.age);
   console.log('Email:', data.email);
   console.log('Home Phone:', data.phone.home);
@@ -38,4 +39,4 @@ const data = {
   console.log('City:', data.address.city);
   console.log('State:', data.address.state);
   console.log('Zip Code:', data.address.zip);
-  console.log('Degree:', data.education.degree.degree);
+  console.log('Degree:', data.education[1].degree);
