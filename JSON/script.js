@@ -30,7 +30,6 @@ const data = {
   
   console.log(data)
   console.log('Name:', data.name);
-  console.log(data.name)
   console.log('Age:', data.age);
   console.log('Email:', data.email);
   console.log('Home Phone:', data.phone.home);
